@@ -55,7 +55,7 @@ const pushToInflux = async (influx, metrics) => {
       );
       await pushToInflux(influx, speedMetrics);
 
-      log(`Sleeping for ${process.env.SPEEDTEST_INTERVAL} seconds...`);
+      log(`Sleeeeeping for ${process.env.SPEEDTEST_INTERVAL} seconds...`);
       await delay(process.env.SPEEDTEST_INTERVAL * 1000);
     }
   } catch (err) {
